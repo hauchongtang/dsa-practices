@@ -1,4 +1,10 @@
 class Solution {
+    /*
+     * Two Pointer approach (L and R pointer)
+     * iterate through whole char array and search s[left] == s[right]
+     * Time: O(N^2)
+     * Space: O(N) 
+     */
     public String longestPalindrome(String s) {
         int left = 0;
         int right = 0;
